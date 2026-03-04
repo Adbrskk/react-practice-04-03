@@ -1,0 +1,27 @@
+.text {
+  overflow: hidden;
+  max-height: 200px;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.hide {
+  max-height: 0;
+  opacity: 0;
+}
+
+.show {
+  max-height: 200px;
+  opacity: 1;
+}
+
+button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+input {
+  padding: 6px;
+  margin-left: 10px;
+}
