@@ -1,7 +1,9 @@
+import ToggleText from "./components/ToggleText";
+
 function App() {
   return (
     <div>
-      <h1>React Practice</h1>
+      <ToggleText />
     </div>
   );
 }
